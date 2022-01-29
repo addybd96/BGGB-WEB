@@ -1,0 +1,17 @@
+Attendace dashboard (Employee + RM)
+
+empCode		empName		date	#checkins	#checkouts	totalWorkingHours	status(Present/Absent/Half day)		+
+inTime	outTime	totalHours	location	attendanceSource(mobile/excel/bioMetric)	attendaceType
++
+calendar month
+
+
+
+total calendar days
+total working days
+total present
+total absent
+total leaves
+
+
+pie chart for attendace first check in

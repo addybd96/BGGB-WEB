@@ -1,0 +1,89 @@
+.contact-profile {
+    width: 100%;
+    height: 60px;
+    font-family: 'Muli';
+    line-height: 60px;
+    background: #474e97;
+    border-radius: 3px 3px 0 0;
+    color: #fff;
+}
+
+.contact-profile img {
+    width: 40px;
+    border-radius: 50%;
+    //float: left;
+    margin: 9px 12px 0 9px;
+    // border: 2px solid #e3e3e3;
+}
+.refresh-icon{
+    margin-right:5px;
+}
+.contact-profile p {
+    //float: left;
+}
+
+.contact-profile .social-media {
+    float: right;
+    margin-right: 15px;
+}
+
+.contact-profile .social-media i {
+    margin-left: 14px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.rsc-container {
+    .rsc-content {
+        font-size: 0.8125rem;
+        font-family: 'Muli';
+        background-image: linear-gradient(to right, #ECE9E6 0%, #FFFFFF 51%, #e8e9f2 100%);
+
+        .rsc-cs {}
+
+        .rsc-ts-user {
+            // font-size: 0.8125rem;
+            // font-family: 'Muli';
+
+            .rsc-ts-bubble {
+                background:#757bb1;
+                color: white;
+                font-style: inherit;
+            }
+        }
+
+        .rsc-ts-bot {
+            // font-size: 0.8125rem;
+            // font-family: 'Muli';
+
+            // .rsc-ts-image-container{
+            //     background-color: #ffffff;
+            // }
+
+            .rsc-ts-bubble {
+                color:#1a237e;
+                background-color: #fff;
+                border: none;
+                margin-bottom: 15px;
+                box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+                transition: all 0.3s ease 0s;
+                outline: none;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+
+    .rsc-footer {
+        font-size: 0.8125rem;
+        font-family: 'Muli';
+
+        .rsc-input {
+            color: #4a4a4a;
+            font-size: 0.8125rem;
+        }
+
+    }
+}

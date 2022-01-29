@@ -1,0 +1,35 @@
+.company-model {
+  .company-icon {
+    text-align: center;
+    padding-top: 35px;
+    span {
+      padding: 18px 18px;
+      background-color: #095c91;
+      border-radius: 100px;
+      i {
+        color: #ffffff;
+        font-size: 20px;
+      }
+    }
+  }
+  h1 {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 22px;
+    margin-top: 45p;
+  }
+  p {
+    text-align: center;
+    font-size: 12px;
+  }
+  .form-control-md {
+    font-size: 13px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+    padding-left: 0;
+}
+}

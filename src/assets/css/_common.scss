@@ -1,0 +1,424 @@
+// .form-control {
+//     font-size: 12px;
+// }
+.pagination-control {
+    margin-top: 15px;
+    width: 100%;
+    ;
+    float: right;
+    text-align: right;
+    .page-item a {
+        color: $color;
+        font-size: 14px;
+    }
+}
+
+.inner-addon {
+    position: relative;
+}
+
+
+/* style icon */
+
+.inner-addon .glyphicon {
+    position: absolute;
+    padding: 10px;
+    pointer-events: none;
+}
+
+
+/* align icon */
+
+.left-addon .fa {
+    left: 0px;
+}
+
+.right-addon .fa {
+    right: 0px;
+}
+
+
+/* add padding  */
+
+.left-addon input {
+    padding-left: 30px;
+}
+
+.right-addon input {
+    padding-right: 30px;
+}
+
+// .form-control:focus {
+//     color: #495057;
+//     background-color: #fff;
+//     border-color: #095c91;
+//     outline: 0;
+//     box-shadow: 0 0 0 0.2rem rgba(9, 92, 145, 0);
+// }
+.dropdown-item {
+    font-size: 14px;
+}
+
+.dropdown-menu.show {
+    display: block;
+    font-size: 14px;
+}
+
+.primary-control {
+    background: #095c91;
+    color: #fff;
+    width: 100%;
+    font-size: 13px;
+}
+
+.btn-secondary {
+    font-size: 13px;
+}
+
+.fluid-container {
+    padding: 0 25px;
+}
+
+.pending {
+    background-color: #ff993300;
+    padding: 5px 6px;
+    border-radius: 3px;
+    font-size: 12px;
+    color: #ff9933;
+    width: 75px;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #ff9933;
+}
+
+.approved {
+    background-color: #4CAF50;
+    ;
+    padding: 5px 6px;
+    border-radius: 3px;
+    font-size: 12px;
+    width: 75px;
+    color: #f5f7fb;
+    display: inline-block;
+    text-align: center;
+}
+
+.done {
+    background-color: #4CAF50;
+    padding: 5px 6px;
+    border-radius: 3px;
+    color: #f5f7fb;
+    font-size: 12px;
+}
+
+.pending-salary {
+    background-color: #FF9800;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: #f5f7fb;
+}
+
+.fixed {
+    background-color: #4CAF50;
+    padding: 5px 6px;
+    border-radius: 3px;
+    color: #f5f7fb;
+}
+
+.btn-primary.btn-primary {
+    color: #fff;
+    background-color: #095c91;
+    border-color: #095c91;
+    &:hover {
+        background-color: #075180;
+    }
+}
+
+.common-btn {
+    padding: .375rem .75rem;
+    background-color: #095c91;
+    border-radius: 3px;
+    color: #ffffff !important;
+    font-size: 14px;
+    text-decoration: none !important;
+    cursor: pointer;
+    i {
+        color: #ffffff;
+    }
+    &:hover {
+        background-color: #084e7b;
+    }
+}
+
+.present {
+    color: #0db70d;
+}
+
+.download-sheet {
+    background-color: #ffffff;
+    color: #4CAF50;
+    padding: 6px 12px;
+    font-size: 12px;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 1px solid #4CAF50;
+}
+
+.mt-space {
+    margin-top: 40px;
+}
+
+.approved-leave {
+    background-color: #4CAF50;
+    padding: 5px 3px;
+    border-radius: 3px;
+    color: #f5f7fb;
+    display: inline-block;
+    text-align: center;
+    width: 65px;
+    font-size: 12px;
+}
+
+.pending-leave {
+    background-color: #FF9800;
+    padding: 5px 3px;
+    border-radius: 3px;
+    color: #f5f7fb;
+    display: inline-block;
+    text-align: center;
+    width: 65px;
+    font-size: 12px;
+}
+
+.rejected-leave {
+    background-color: #F44336;
+    padding: 5px 3px;
+    border-radius: 3px;
+    color: #f5f7fb;
+    display: inline-block;
+    text-align: center;
+    width: 65px;
+    font-size: 12px;
+}
+
+.process-control {
+    margin-top: 80px;
+}
+
+.fa-pencil {
+    color: #212529;
+}
+
+.error-message {
+    color: red;
+}
+
+.bg-active {
+    background-color: #dfdfdf !important;
+}
+
+.pe-none {
+    pointer-events: none;
+}
+
+.payslip-view {
+    text-align: center;
+    width: 100%;
+    background-color: #efefef;
+    float: left;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+h4 {
+    margin-top: 20px;
+}
+
+.payslip-body {
+    background: #f0f0f0;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    height: 100%;
+}
+
+.salary1 {
+    border: 1px solid #e5e5e5;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:200,300,400,600,700');
+.payslip-body>* {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: #444;
+}
+
+#payslip {
+    width: calc( 10in - 80px);
+    height: auto;
+    background: #fff;
+    padding: 30px 40px;
+    margin-bottom: 30px;
+    padding-bottom: 25px;
+}
+
+#title {
+    margin-bottom: 20px;
+    font-size: 38px;
+    font-weight: 600;
+}
+
+#scope {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 7px 0 4px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+#scope>.scope-entry {
+    text-align: center;
+}
+
+#scope>.scope-entry>.value {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.content1 {
+    display: contents;
+    border-bottom: 1px solid #ccc;
+    height: auto;
+}
+
+.content1 .left-panel1 {
+    width: 100%;
+    padding: 15px 16px 0 0;
+    border-top: 1px solid #e5e5e5;
+}
+
+.content1 .right-panel1 {
+    width: 100%;
+    padding: 10px 0 0 16px;
+    padding-left: 0;
+    margin-top: 5px;
+}
+
+.basic-pay1 {
+    margin-bottom: 30px;
+    padding: 1px;
+    background-color: whitesmoke;
+}
+
+#employee {
+    text-align: left;
+    margin-bottom: 35px;
+    margin-top: 10px;
+    font-size: 32px;
+}
+
+#employee #name {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#employee #email {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.details1,
+.contributions1,
+.ytd1,
+.gross1 {
+    margin-bottom: 20px;
+}
+
+.details1 .entry1,
+.contributions1 .entry1,
+.ytd1 .entry1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+}
+
+.details1 .entry1 .value1,
+.contributions1 .entry1 .value1,
+.ytd1 .entry1 .value1 {
+    font-weight: 700;
+    max-width: 230px;
+    text-align: right;
+}
+
+.gross .entry .value {
+    font-weight: 700;
+    text-align: right;
+    font-size: 16px;
+}
+
+.contributions1 .title1,
+.ytd1 .title1,
+.gross1 .title1 {
+    font-size: 15px;
+    font-weight: 700;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 4px;
+    margin-bottom: 6px;
+}
+
+.content1 .right-panel1 .details1 {
+    width: 100%;
+}
+
+.content1 .right-panel1 .details1 .entry1 {
+    display: flex;
+    padding: 0 10px;
+    margin: 6px 0;
+}
+
+.content1 .right-panel1 .details1 .label1 {
+    width: 120px;
+    line-height: 26px;
+}
+
+.content1 .right-panel1 .details1 .detail1 {
+    font-weight: 600;
+    width: 130px;
+}
+
+.content1 .right-panel1 .details1 .rate1 {
+    font-weight: 400;
+    width: 150px;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.content1 .right-panel1 .details1 .amount1 {
+    text-align: right;
+    font-weight: 700;
+    width: 90px;
+}
+
+.content1 .right-panel1 .details1 .net_pay1,
+.content1 .right-panel1 .details1 .nti1 {
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.content1 .right-panel1 .details1 .net_pay1,
+.content1 .right-panel1 .details1 .nti1 {
+    padding: 3px 0 2px 0;
+    margin-bottom: 0;
+    background: rgba(0, 0, 0, 0.04);
+}
+
+@font-face {
+    font-family: 'NunitoSans-Regular';
+    src: local('NunitoSans-Regular'), url('../fonts/NunitoSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'NunitoSans-Regular';
+    src: local('NunitoSans-Regular'), url('../fonts/NunitoSans-Bold.ttf') format('truetype');
+}

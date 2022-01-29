@@ -1,0 +1,51 @@
+.main-container {
+    .heading-h1 {
+        display: block;
+        width: 100%;
+    }
+    .card {
+        width: 100%;
+    }
+    .search-btn {
+        color: #ffffff !important;
+        background-color: #095c91;
+        border: none;
+        font-size: 13px;
+        i {
+            color: #ffffff;
+            margin-right: 5px;
+        }
+    }
+    #header-fixed {
+        position: fixed;
+        top: 0px;
+        display: none;
+        background-color: white;
+    }
+    .table td,
+    .table th {
+        font-size: 13px;
+    }
+    .record-filter {
+        padding: 0;
+        .search-btn {
+            color: #095c91;
+            background-color: transparent;
+            border: none;
+            padding: 0;
+            i {
+                color: #095c91;
+            }
+        }
+    }
+}
+
+@media (min-width: 230px) and (max-width: 992px) {
+    .header-container .logo img {
+        height: 55px;
+        width: 100%;
+    }
+    // .main-container .form-control{
+    //   margin-bottom: 10px;
+    // }
+}

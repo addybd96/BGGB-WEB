@@ -1,0 +1,40 @@
+
+
+.timeline-details{
+    background-color: #ececec;
+    padding: 8px;
+.ticket-details{
+    padding-top: 10px;
+    display: inline-table;
+    height: 35px;
+    border-top: 1px solid #cacaca;
+}
+    .ticket-status{
+        // background-color: #4CAF50;
+        width: 80px;
+        padding: 2px;
+        text-align: center;
+        color: #000000;
+        border-radius: 3px;
+        position: absolute;
+        right: 15px;
+        top: 15px;
+    
+    }
+
+}
+.line{
+    height: 135px;
+    width: 1px;
+    position: absolute;
+    background-color: #283593;
+    left: 130px;
+}
+.dot{
+    background-color: #283593;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: 123px;
+    border-radius: 100px;
+}

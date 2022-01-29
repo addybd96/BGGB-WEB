@@ -1,0 +1,42 @@
+
+.attendance-count{
+  padding: 15px;
+  .count{
+    font-size: 38px;
+    padding-bottom: 8px;
+    display: block;
+    width: 100%;
+  }
+  .label{
+    font-size: 14px;
+  }
+  .icon img{
+    height: 55px;
+    width: auto;
+    margin-top: 15px;
+  }
+
+}
+.img-responsive{
+  width: 100%;
+}
+.total-emp{
+  background-color: #90caf9;
+
+}
+.total-present{
+  background-color: #9fa8da;
+}
+.total-absent{
+  background-color: #ffab91;
+
+}
+.total-leaves{
+  background-color: #e6ee9c;
+}
+.attendance-statistics{
+  
+}
+.attendance-trend{
+  
+}

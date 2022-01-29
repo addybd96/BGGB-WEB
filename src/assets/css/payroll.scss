@@ -1,0 +1,125 @@
+.monthly-cycle {
+  width: calc(100% / 12);
+  text-align: center;
+  border-right: 3px solid #f5f7fb;
+  color: #ffffff;
+  &:hover {
+    cursor: pointer;
+  }
+  .month {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 10px;
+  }
+  .year {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .status {
+    font-size: 10px;
+    position: initial;
+    bottom: 0;
+    background-color: #06060682;
+    opacity: 0.5;
+    width: 100%;
+  }
+}
+.current-state {
+  background-color: #26b2ff;
+  height: 5px;
+}
+.completed-payroll {
+  background-color: #359232;
+}
+.pending-payroll {
+  background-color: #fdb201;
+  padding: 0;
+}
+.current-payroll {
+  background-color: #26b2ff;
+}
+.upcoming-payroll {
+  background-color: #c3c3c3;
+}
+.payroll-container {
+  padding: 15px;
+  .payroll-details {
+    b {
+      display: block;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    span {
+      font-size: 12px;
+    }
+    .label {
+      font-size: 12px;
+    }
+    .counts {
+      font-size: 26px;
+      margin-top: 10px;
+      small {
+        font-size: 16px;
+      }
+      .red {
+        color: red;
+      }
+      .green {
+        color: green;
+      }
+    }
+    .sub-counts {
+      font-size: 12px;
+      span {
+        color: red;
+      }
+    }
+  }
+  .payroll-action {
+    background-color: #e6f2ff;
+    border-radius: 3px;
+    padding: 15px;
+    .icon {
+      width: 100%;
+      img {
+        height: 45px;
+        margin-top: 6px;
+      }
+    }
+    .details {
+      b {
+        font-size: 16px;
+        a{
+          color: #232323;
+          &:hover{
+            text-decoration: none;
+          }
+        }
+      }
+      p {
+        font-size: 12px;
+        margin-bottom: 0;
+        margin-top: 6px;
+      }
+
+    }
+  }
+
+}
+@media (min-width: 230px) and (max-width: 992px) {
+  .monthly-cycle {
+    width: calc(100% / 3);
+  }
+  .payroll-container .payroll-details b {
+    margin-bottom: 0;
+  }
+  .payroll-details {
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  .payroll-container .payroll-details .counts {
+    font-size: 26px;
+    margin-top: 0;
+  }
+}

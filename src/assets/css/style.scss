@@ -1,0 +1,29 @@
+@import './variable';
+@import './header';
+@import './common';
+@import './loader';
+@import './shimmer';
+@import './buttion';
+@import './login';
+@import './home';
+@import './employee-list';
+@import './employee-profile';
+@import './final-process';
+@import './attendance';
+@import './popup-model';
+@import './leave';
+@import './setting';
+@import './custom';
+@import './holiday-calender';
+@import './leave-management.scss';
+@import './attendance-dashboard.scss';
+@import './payroll.scss';
+@import './attendance-report.scss';
+@import './chatbot.scss';
+@import './timeline.scss';
+
+body {
+    background-color: #f5f7fb;
+    font-family: 'Muli', sans-serif;
+    font-size: 16px;
+}
